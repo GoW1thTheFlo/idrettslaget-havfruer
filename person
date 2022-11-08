@@ -1,0 +1,12 @@
+class Person:
+    def __init__(self, fornavn, etternavn, tlf):
+        self.fornavn = fornavn
+        self.etternavn = etternavn
+        self.tlf = tlf
+    def visInfo(self):
+        print(f"Fornavn:\t{self.fornavn}")
+        print(f"Etternavn:\t {self.etternavn}")
+        print(f"Tlf:\t {self.tlf}")
+
+are = Person("Are", "Ped", 6)
+are.visInfo()
